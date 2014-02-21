@@ -1,11 +1,17 @@
-#!/bin/sh
-
-if [ ! -d "$HOME/.yadr" ]; then
-    echo "Installing YADR for the first time"
-    git clone https://github.com/skwp/dotfiles.git "$HOME/.yadr"
-    cd "$HOME/.yadr"
-    [ "$1" == "ask" ] && export ASK="true"
-    rake install
-else
-    echo "YADR is already installed"
-fi
+rm -r $HOME/.yadr
+mkdir $HOME/.yadr
+cp -r * $HOME/.yadr/
+#Now that everything is on ~/.yadr directory we can begin to work 
+#---------------------------------------------#
+#                    GIT                      #
+#---------------------------------------------#
+ln -s $HOME/.yadr/git/gitconfig $HOME/.gitconfig
+ln -s $HOME/.yadr/git/gitignore $HOME/.gitignore
+#---------------------------------------------#
+#                   FONTS                     #
+#---------------------------------------------#
+ln -s $HOME/.yadr/fonts $HOME/.fonts
+#---------------------------------------------#
+#                   VIM                       #
+#---------------------------------------------#
+ln -s $HOME/.yadr/vimrc $HOME/.vimrc
