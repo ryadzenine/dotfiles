@@ -107,21 +107,19 @@ of plugins above to learn more.
  * `,b` - CtrlP buffer selector - great for jumping to a file you already have open
  * `Cmd-Shift-M` - jump to method - CtrlP tag search within current buffer
  * `,jm` jump to models. Other `,j` mappings: `,jc` for controllers, `,jh` for helpers, etc. If you think of a concept and a letter, we've got you covered.
- * `Cmd-Shift-N` - NERDTree toggle
+ * `Ctrl-Shift-N` - NERDTree toggle
  * `Ctrl-\` - Show current file in NERDTree
- * `Cmd-Shift-P` - Clear CtrlP cache
+ * `Ctrl-Shift-P` - Clear CtrlP cache
 
 #### Better keystrokes for common editing commands
 
  * Cmd-Space to autocomplete. Tab for snipmate snippets.
- * `,#` `,"` `,'` `,]` `,)` `,}` to surround a word in these common wrappers. the # does #{ruby interpolation}. works in visual mode (thanks @cj). Normally these are done with something like `ysw#`
- * `Cmd-'`, `Cmd-"`, `Cmd-]`, `Cmd-)`, etc to change content inside those surrounding marks. You don't have to be inside them.
+ *  `,"` `,'` `,]` `,)` `,}` to surround a word in these common wrappers. the # does #{ruby interpolation}. works in visual mode (thanks @cj). Normally these are done with something like `ysw#`
  * `,.` to go to last edit location (same as `'.`) because the apostrophe is hard on the pinky
  * `,ci` to change inside any set of quotes/brackets/etc
 
 #### Tabs, Windows, Splits
 
- * Use `Cmd-1` thru `Cmd-9` to switch to a specific tab number (like iTerm and Chrome) - and tabs have been set up to show numbers
  * `Ctrl-h,l,j,k` - to move left, right, down, up between splits
  * `Q` - Intelligent Window Killer. Close window `wincmd c` if there are multiple windows to same buffer, or kill the buffer `bwipeout` if this is the last window into it.
  * `vv` - vertical split (`Ctrl-w,v`)
@@ -147,13 +145,13 @@ of plugins above to learn more.
  * `,he` - Html Escape
  * `,hu` - Html Unescape
  * `,hp` - Html Preview (open in Safari)
- * `Cmd-Shift-A` - align things (type a character/expression to align by, works in visual mode or by itself)
+ * `Ctrl-Shift-A` - align things (type a character/expression to align by, works in visual mode or by itself)
  * `:ColorToggle` - turn on #abc123 color highlighting (useful for css)
  * `:Gitv` - Git log browsers
  * `,hi` - show current Highlight group. if you don't like the color of something, use this, then use `hi! link [groupname] [anothergroupname]` in your vimrc.after to remap the color. You can see available colors using `:hi`
  * `,gt` - Go Tidy - tidy up your html code (works on a visual selection)
  * `:Wrap` - wrap long lines (e.g. when editing markdown files).
- * `Cmd-/` - toggle comments (usually gcc from tComment)
+ * `Ctrl-/` - toggle comments (usually gcc from tComment)
  * `gcp` (comment a paragraph)
 
 
