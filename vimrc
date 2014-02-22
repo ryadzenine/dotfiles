@@ -1,7 +1,13 @@
 " Use Vim settings, rather then Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
 set nocompatible
-
+" ==========================================================
+"  Pathogen - Allows us to organize our vim plugins
+" ==========================================================
+" Load pathogen with docs for all plugins
+filetype off
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 " ================ General Config ====================
 
 set number                      "Line numbers are good
@@ -26,14 +32,6 @@ syntax on
 " The mapleader has to be set before vundle starts loading all 
 " the plugins.
 let mapleader=","
-
-" ==========================================================
-" Pathogen - Allows us to organize our vim plugins
-" ==========================================================
-" Load pathogen with docs for all plugins
-filetype off
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
 
 " ================ Turn Off Swap Files ==============
 
@@ -100,4 +98,4 @@ set sidescroll=1
 
 
 " ================ Custom Settings ========================
-so ~/.yadr/vim/settings.vim
+so ~/.vim/settings.vim
