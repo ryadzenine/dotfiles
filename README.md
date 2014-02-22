@@ -64,7 +64,7 @@ It is recommended to use this file to set your user info. Alternately, you can s
 ## Vim - What's included?
 
  * [Navigation - NERDTree, CtrlP and more](doc/vim/navigation.md)
- * [Code manipulation - python support, comments, golang support( godoc , godev support ), highlighting](doc/vim/coding.md)
+ * [Code manipulation - python support, comments, golang support( godoc, gofmt), highlighting](doc/vim/coding.md)
  * [Utils - indents, paste buffer management, lots more](doc/vim/utils.md)
  * [General enhancements that don't add new commands](doc/vim/enhancements.md)
 
@@ -96,7 +96,6 @@ of plugins above to learn more.
  * `,gcf` - Grep Current File to find references to the current file
  * `//` - clear the search
  * `,T` - Tag list (list of methods in a class)
- * `,,w` (alias `,<esc>`) or `,,b` (alias `,<shift-esc>`) - EasyMotion, a vimperator style tool that highlights jump-points on the screen and lets you type to get there.
  * `,mc` - mark this word for MultiCursor (like sublime). Use `Ctrl-n` (next), `Ctrl-p` (prev), `Ctrl-x`(skip) to add more cursors, then do normal vim things like edit the word.
  * `gK` - Opens the documentation for the word under the cursor.
  * Spacebar - Sneak - type two characters to move there in a line. Kind of like vim's `f` but more accurate.
@@ -131,8 +130,6 @@ of plugins above to learn more.
 
  * `Ctrl-p` after pasting - Use `p` to paste and `Ctrl-p` to cycle through previous pastes. Provided by YankRing.
  * `,yr` - view the yankring - a list of your previous copy commands. also you can paste and hit `ctrl-p` for cycling through previous copy commands
- * `crs`, `crc`, `cru` via abolish.vim, coerce to snake_case, camelCase, and UPPERCASE. There are more `:help abolish`
- * `:NR` - NarrowRgn - use this on a bit of selected text to create a new split with just that text. Do some work on it, then :wq it to get the results back.
  * `,ig` - toggle visual indentation guides
  * `,cf` - Copy Filename of current file (full path) into system (not vi) paste buffer
  * `,cn` - Copy Filename of current file (name only, no path)
@@ -157,7 +154,7 @@ of plugins above to learn more.
 
 #### Vim Dev
 
- * `,vc` - (Vim Command) copies the command under your cursor and executes it in vim. Great for testing single line changes to vimrc.
+ * `,cv` - (Vim Command) copies the command under your cursor and executes it in vim. Great for testing single line changes to vimrc.
  * `,vr` - (Vim Reload) source current file as a vim file
 
 ## Extending and overriding YADR settings
