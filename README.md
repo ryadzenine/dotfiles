@@ -1,13 +1,13 @@
 # YADR
 ## What is it about :
-This is my dotfiles project , it is strongly inspired from [YADR](https://github.com/skwp/dotfiles), i just removed all the plugins that a don't need,
+This is my dotfiles project , it is strongly inspired from [YADR](https://github.com/skwp/dotfiles), i just removed all the plugins that i don't need,
 removed html/css/javascript/ruby/rails support, added python and golang support.
-Updated the vim configuration  to use pathogen instead of Vundle
+Updated the vim configuration to use pathogen instead of Vundle
 
 I also added my bashrc with support to [liquidprompt](https://github.com/nojhan/liquidprompt).
 
-There is still, to much vim plugins, so you have to expect some of them to disaper. some keybindings will probably be changed to.
-YADR provided a amazing working base that i will be updating to make it more convenient for me regarding my workflow. 
+There is still, to much vim plugins, so you have to expect some of them to disaper. some keybindings will probably be changed too.
+YADR provided an amazing working base that i will be updating to make it more convenient for me regarding my workflow. 
 
 Feel free to fork my work. otherwise you can use the amazing [YADR](https://github.com/skwp/dotfiles)
 ## Installation
