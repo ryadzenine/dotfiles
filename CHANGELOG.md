@@ -1,4 +1,9 @@
-20014-02-21
+2014-02-22
+==================
+ * Changed neocompletion to supertab
+ * Fixed golang support (tags , completion , doc )
+ 
+2014-02-21
 ==================
  
  * Fork from Ryad Zenine 
