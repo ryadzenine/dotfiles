@@ -11,6 +11,7 @@
  * Installed annonymous fonts 
  * Added liquidprompt as a submodule  
  * Removed all the ruby code 
+ * Added extended support for python and golang
 2014-02-15
 ==================
 
