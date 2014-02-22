@@ -1,12 +1,15 @@
-     _     _           _
-    | |   | |         | |
-    | |___| |_____  __| | ____
-    |_____  (____ |/ _  |/ ___)
-     _____| / ___ ( (_| | |
-    (_______\_____|\____|_|
+# YADR
+## What is it about :
+This is my dotfiles project , it is strongly inspired from [YADR](https://github.com/skwp/dotfiles), i just removed all the plugins that a don't need,
+removed html/css/javascript/ruby/rails support, added python and golang support.
+Updated the vim configuration  to use pathogen instead of Vundle
 
-    # Zenine Ryad (YADR fork) Dotfile Repo v0.1
+I also added my bashrc with support to [liquidprompt](https://github.com/nojhan/liquidprompt).
 
+There is still, to much vim plugins, so you have to expect some of them to disaper. some keybindings will probably be changed to.
+YADR provided a amazing working base that i will be updating to make it more convenient for me regarding my workflow. 
+
+Feel free to fork my work. otherwise you can use the amazing [YADR](https://github.com/skwp/dotfiles)
 ## Installation
 
 To get started please run:
@@ -30,7 +33,7 @@ We've also provided lots of enhancements:
 * [Prezto - the power behind YADR's zsh](http://github.com/sorin-ionescu/prezto)
 * [How to add your own ZSH theme](doc/zsh/themes.md)
 
-### Aliases
+### Aliases ( Only Work with Zsh)
 
 Lots of things we do every day are done with two or three character
 mnemonic aliases. Please feel free to edit them:
@@ -45,15 +48,15 @@ YADR will take over your `~/.gitconfig`, so if you want to store your usernames,
 
 It is recommended to use this file to set your user info. Alternately, you can set the appropriate environment variables in your `~/.secrets`.
 
-  * `git l` or `gl`- a much more usable git log
-  * `git b` or `gb`- a list of branches with summary of last commit
+  * `git l` or `git lg`- a much more usable git log
+  * `git b` - a list of branches with summary of last commit
   * `git r` - a list of remotes with info
-  * `git t` or `gt`- a list of tags with info
-  * `git nb` or `gnb`- a (n)ew (b)ranch - like checkout -b
-  * `git cp` or `gcp`- cherry-pick -x (showing what was cherrypicked)
+  * `git t` - a list of tags with info
+  * `git nb` - a (n)ew (b)ranch - like checkout -b
+  * `git cp` - cherry-pick -x (showing what was cherrypicked)
   * `git simple` - a clean format for creating changelogs
   * `git recent-branches` - if you forgot what you've been working on
-  * `git unstage` / `guns` (remove from index) and `git uncommit` / `gunc` (revert to the time prior to the last commit - dangerous if already pushed) aliases
+  * `git unstage` (remove from index) and `git uncommit`  (revert to the time prior to the last commit - dangerous if already pushed) aliases
   * Some sensible default configs, such as improving merge messages, push only pushes the current branch, removing status hints, and using mnemonic prefixes in diff: (i)ndex, (w)ork tree, (c)ommit and (o)bject
   * Slightly improved colors for diff
 
@@ -61,7 +64,7 @@ It is recommended to use this file to set your user info. Alternately, you can s
 ## Vim - What's included?
 
  * [Navigation - NERDTree, CtrlP and more](doc/vim/navigation.md)
- * [Code manipulation - python support, comments, golang support, highlighting](doc/vim/coding.md)
+ * [Code manipulation - python support, comments, golang support( godoc , godev support ), highlighting](doc/vim/coding.md)
  * [Utils - indents, paste buffer management, lots more](doc/vim/utils.md)
  * [General enhancements that don't add new commands](doc/vim/enhancements.md)
 
