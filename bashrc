@@ -1,8 +1,7 @@
-source /usr/share/autojump/autojump.sh
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
-source ~/yadr/liquidprompt/liquidprompt
+source ~/.yadr/liquidprompt/liquidprompt
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -114,8 +113,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
- 
+export GOROOT=/usr/local/go 
 export GOPATH=$HOME/Workspace/go
-export PATH=$PATH:$GOPATH/bin:/home/ryad/bin
+export PATH=$PATH:$GOPATH/bin:$GOROOT/bin:/home/ryad/bin
 
 export PAGER=most man less
