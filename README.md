@@ -5,73 +5,17 @@
      _____| / ___ ( (_| | |
     (_______\_____|\____|_|
 
-    # Yet Another Dotfile Repo v1.1
-    # Now with Prezto and Vundle!
-
-    sh -c "`curl -fsSL https://raw.github.com/skwp/dotfiles/master/install.sh`"
-
-**Always be sure to run `rake update` after pulling to ensure plugins are updated**
-
-## What is YADR?
-
-**YADR is an opinionated dotfile repo that will make your heart sing**
-
-  * The best bits of all the top dotfile repos, vim and zsh plugins curated in one place, into a simple and cohesive way of working.
-  * More than 90 vim plugins, all under one roof, working together, each plugin researched and configured to be at its best, often with better shortcut keys.
-  * Many zsh plugins, starting with the wonderful Prezto base, and adding a few niceties on top.
-  * All things are vimized: irb, postres command line, etc.
-
-## Mailing List
-
-Got questions, concerns, want to hear announcements? Join the [Google Group](https://groups.google.com/forum/#!forum/yadr-users)
-
-Please use GitHub Issues for pull requests or bug reports only.
-
-## Screenshot
-
-![screenshot](http://i.imgur.com/3C1Ze.png)
+    # Zenine Ryad (YADR fork) Dotfile Repo v0.1
 
 ## Installation
 
 To get started please run:
+Just clone the repo and run install.sh, the installation script need some improvements for now on it will overwrite all your rc files.
 
-```bash
-sh -c "`curl -fsSL https://raw.github.com/skwp/dotfiles/master/install.sh`"
-```
-
-**Note:** YADR will automatically install all of its subcomponents. If you want to be asked
-about each one, use:
-
-```bash
-sh -c "`curl -fsSL https://raw.github.com/skwp/dotfiles/master/install.sh`" -s ask
-```
-
-## Wait, you're not done! Do this:
-
-* Install iTerm Solarized Colors - YADR will install Solarized colorschemes into your iTerm. Go to Profiles => Colors => Load Presets to pick Solarized Dark.
-* [Remap caps-lock to escape with PCKeyboardHack](http://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html) - The escape key is the single most used key in vim.  Old keyboards used to have Escape where Tab is today. Apple keyboards are the worst with their tiny Esc keys. But all this is fixed by remapping Caps to Escape.  If you're hitting a small target in the corner, you are slowing yourself down considerably, and probably damaging your hands with repetitive strain injuries.
-* Remap your Alfred or Spotlight to `Ctrl-Cmd-Space`, so that you can use `Cmd-Space` to autocomplete in vim. This is much more friendly for your fingers than `Ctrl-n`.
-
-### Upgrading
-
-Upgrading is easy.
-
-```bash
-cd ~/.yadr
-git pull --rebase
-rake update
-```
 
 ## What's included, and how to customize?
 
 Read on to learn what YADR provides!
-
-### [Homebrew](http://mxcl.github.com/homebrew/)
-
-Homebrew is _the missing package manager for OSX_. Installed automatically.
-
-We automatically install a few useful packages including ctags, git, macvim, hub, and the silver searcher ('ag')
-Note that our autocomplete plugin requires a MacVim that supports Lua. The installer knows how to install it, but if you had one installed before, you may need to manually remove your old MacVim.
 
 ### ZSH
 
@@ -113,30 +57,11 @@ It is recommended to use this file to set your user info. Alternately, you can s
   * Some sensible default configs, such as improving merge messages, push only pushes the current branch, removing status hints, and using mnemonic prefixes in diff: (i)ndex, (w)ork tree, (c)ommit and (o)bject
   * Slightly improved colors for diff
 
-### RubyGems
-
-A .gemrc is included. Never again type `gem install whatever --no-ri --no-rdoc`. `--no-ri --no-rdoc` is done by default.
-
-### Tmux configuration
-
-`tmux.conf` provides some sane defaults for tmux on Mac OS like a powerful status bar and vim keybindings.
-You can customize the configuration in `~/.tmux.conf.user`.
-
-### Vimization of everything
-
-The provided inputrc and editrc will turn your various command line tools like mysql and irb into vim prompts. There's
-also an included Ctrl-R reverse history search feature in editrc, very useful in irb, postgres command line, and etc.
-
-### Github Issues: [ghi gem](https://github.com/stephencelis/ghi)
-
-We include the `ghi` command. Try `ghi list` and have fun managing issues from command line!
-
 
 ## Vim - What's included?
 
- * [Navigation - NERDTree, EasyMotion, CtrlP and more](doc/vim/navigation.md)
- * [Text Objects - manipulate ruby blocks, and more](doc/vim/textobjects.md)
- * [Code manipulation - rails support, comments, snippets, highlighting](doc/vim/coding.md)
+ * [Navigation - NERDTree, CtrlP and more](doc/vim/navigation.md)
+ * [Code manipulation - python support, comments, golang support, highlighting](doc/vim/coding.md)
  * [Utils - indents, paste buffer management, lots more](doc/vim/utils.md)
  * [General enhancements that don't add new commands](doc/vim/enhancements.md)
 
@@ -228,16 +153,6 @@ of plugins above to learn more.
  * `Cmd-/` - toggle comments (usually gcc from tComment)
  * `gcp` (comment a paragraph)
 
-#### Rails & Ruby
-
- * `,vv` and `,cc` to switch between view and controller - these are maps to :Rcontroller and :Rview. Explore the :R<Tab> family of commands for more fun from rails.vim!
- * `,rs` and `,rl` to run rspec or a spec line in iTerm (check iTerm window for results)
- * `,ss` and `,sl` for the same using `spring rspec` which makes your Rails specs faster by caching the Rails env (must have spring gem installed)
- * vim-ruby-refactoring - try `,rem`, `,rel` to extract methods or let statements
- * `Ctrl-s` - Open related spec in a split. Similar to :A and :AV from rails.vim but is also aware of the fast_spec dir and faster to type
- * `:Bopen [gem name]` to navigate to a gem (@tpope/vim-bundler)
- * `,gcp` - Grep Current Partial to find references to the current view partial
- * `,orb` - outer ruby block. takes you one level up from nested blocks (great for rspec)
 
 #### Vim Dev
 
@@ -253,27 +168,7 @@ of plugins above to learn more.
 ## Misc
 
 * [Credits & Thanks](doc/credits.md)
-* [Other recommended OSX productivity tools](doc/osx_tools.md)
 * [Yan's Blog](http://yanpritzker.com)
-
-### OSX Hacks
-
-The osx file is a bash script that sets up sensible defaults for devs and power users
-under osx. Read through it before running it. To use:
-
-    ./osx
-
-These hacks are Lion-centric. May not work for other OS'es. My favorite mods include:
-
-  * Ultra fast key repeat rate (now you can scroll super quick using j/k)
-  * No disk image verification (downloaded files open quicker)
-  * Display the ~/Library folder in finder (hidden in Lion)
-
-
-### [Pry](http://pry.github.com/)
-
-Pry offers a much better out of the box IRB experience with colors, tab completion, and lots of other tricks. You can also use it
-as an actual debugger by installing [pry-nav](https://github.com/nixme/pry-nav).
 
 [Learn more about YADR's pry customizations and how to install](doc/pry.md)
 

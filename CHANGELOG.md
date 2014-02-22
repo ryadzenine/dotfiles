@@ -1,4 +1,16 @@
-
+20014-02-21
+==================
+ 
+ * Fork from Ryad Zenine 
+ * Updating the vim configuration to use pathogen
+ * Language support +GO + PYTHON -JS -HTML -RUBY -LESS -PUPPET ect... 
+ * Removing a lot of vim plugins that are not usefull for me 
+ * Updating the output of git log
+ * Added a bashrc file 
+ * Removed all OsX related stuff
+ * Installed annonymous fonts 
+ * Added liquidprompt as a submodule  
+ * Removed all the ruby code 
 2014-02-15
 ==================
 

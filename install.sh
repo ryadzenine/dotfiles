@@ -1,4 +1,4 @@
-rm -r $HOME/.yadr
+rm -fr $HOME/.yadr
 mkdir $HOME/.yadr
 cp -r * $HOME/.yadr/
 #Now that everything is on ~/.yadr directory we can begin to work 
@@ -15,3 +15,8 @@ ln -s $HOME/.yadr/fonts $HOME/.fonts
 #                   VIM                       #
 #---------------------------------------------#
 ln -s $HOME/.yadr/vimrc $HOME/.vimrc
+ln -s $HOME/.yadr/vim $HOME/.vim
+#---------------------------------------------#
+#                  BASH                       #
+#---------------------------------------------#
+ln -s $HOME/.yadr/bashrc $HOME/.bashrc

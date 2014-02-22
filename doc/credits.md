@@ -10,6 +10,8 @@ and other places for the cream of the crop of vim awesomeness.
  * https://github.com/kana
  * https://github.com/sorin-ionescu
  * https://github.com/nelstrom
+ * https://github.com/klen
+ * https://github.com/jnwhiteh
 
 And everything that's in the modules included in vim/bundle of course.
 Please explore these people's work.
