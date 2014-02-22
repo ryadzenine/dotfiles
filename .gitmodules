@@ -83,3 +83,12 @@
 [submodule "vim/bundles/YankRing.vim"]
 	path = vim/bundles/YankRing.vim
 	url = https://github.com/skwp/YankRing.vim.git
+[submodule "vim/bundles/solarized"]
+	path = vim/bundles/solarized
+	url = https://github.com/altercation/vim-colors-solarized
+[submodule "vim/bundle/vim-misc"]
+	path = vim/bundle/vim-misc
+	url = https://github.com/xolox/vim-misc
+[submodule "vim/bundle/vim-gocode"]
+	path = vim/bundle/vim-gocode
+	url = https://github.com/Blackrush/vim-gocode

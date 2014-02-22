@@ -1,0 +1,282 @@
+
+XSMP : ouverture de la connexion
+chdir(/usr/share/vim)
+fchdir() to previous dir
+sourcement "$VIM/vimrc"
+Recherche de "debian.vim" dans "/home/ryad/.vim,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/ryad/.vim/after"
+Recherche de "/home/ryad/.vim/debian.vim"
+Recherche de "/usr/share/vim/vimfiles/debian.vim"
+Recherche de "/usr/share/vim/vim74/debian.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+ligne 10 : sourcement de "/usr/share/vim/vim74/debian.vim"
+fin du sourcement de /usr/share/vim/vim74/debian.vim
+de retour dans /usr/share/vim/vimrc
+Recherche de "/usr/share/vim/vimfiles/after/debian.vim"
+Recherche de "/home/ryad/.vim/after/debian.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+ligne 20 : sourcement de "/usr/share/vim/vim74/syntax/syntax.vim"
+Recherche de "syntax/synload.vim" dans "/home/ryad/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/ryad/.vim/after"
+Recherche de "/home/ryad/.vim/syntax/synload.vim"
+Recherche de "/var/lib/vim/addons/syntax/synload.vim"
+Recherche de "/usr/share/vim/vimfiles/syntax/synload.vim"
+Recherche de "/usr/share/vim/vim74/syntax/synload.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+ligne 19 : sourcement de "/usr/share/vim/vim74/syntax/synload.vim"
+Recherche de "syntax/syncolor.vim" dans "/home/ryad/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/ryad/.vim/after"
+Recherche de "/home/ryad/.vim/syntax/syncolor.vim"
+Recherche de "/var/lib/vim/addons/syntax/syncolor.vim"
+Recherche de "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Recherche de "/usr/share/vim/vim74/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+ligne 21 : sourcement de "/usr/share/vim/vim74/syntax/syncolor.vim"
+fin du sourcement de /usr/share/vim/vim74/syntax/syncolor.vim
+de retour dans /usr/share/vim/vim74/syntax/synload.vim
+Recherche de "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Recherche de "/var/lib/vim/addons/after/syntax/syncolor.vim"
+Recherche de "/home/ryad/.vim/after/syntax/syncolor.vim"
+fin du sourcement de /usr/share/vim/vim74/syntax/synload.vim
+de retour dans /usr/share/vim/vim74/syntax/syntax.vim
+Recherche de "filetype.vim" dans "/home/ryad/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/ryad/.vim/after"
+Recherche de "/home/ryad/.vim/filetype.vim"
+Recherche de "/var/lib/vim/addons/filetype.vim"
+Recherche de "/usr/share/vim/vimfiles/filetype.vim"
+Recherche de "/usr/share/vim/vim74/filetype.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+ligne 25 : sourcement de "/usr/share/vim/vim74/filetype.vim"
+Recherche de "ftdetect/*.vim" dans "/home/ryad/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/ryad/.vim/after"
+Recherche de "/home/ryad/.vim/ftdetect/*.vim"
+Recherche de "/var/lib/vim/addons/ftdetect/*.vim"
+Recherche de "/usr/share/vim/vimfiles/ftdetect/*.vim"
+Recherche de "/usr/share/vim/vim74/ftdetect/*.vim"
+Recherche de "/usr/share/vim/vimfiles/after/ftdetect/*.vim"
+Recherche de "/var/lib/vim/addons/after/ftdetect/*.vim"
+Recherche de "/home/ryad/.vim/after/ftdetect/*.vim"
+introuvable dans 'runtimepath' : "ftdetect/*.vim"
+fin du sourcement de /usr/share/vim/vim74/filetype.vim
+de retour dans /usr/share/vim/vim74/syntax/syntax.vim
+Recherche de "/usr/share/vim/vimfiles/after/filetype.vim"
+Recherche de "/var/lib/vim/addons/after/filetype.vim"
+Recherche de "/home/ryad/.vim/after/filetype.vim"
+fin du sourcement de /usr/share/vim/vim74/syntax/syntax.vim
+de retour dans /usr/share/vim/vimrc
+fin du sourcement de $VIM/vimrc
+chdir(/home/ryad)
+fchdir() to previous dir
+sourcement "$HOME/.vimrc"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+ligne 22 : sourcement de "/usr/share/vim/vim74/syntax/syntax.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+ligne 15 : sourcement de "/usr/share/vim/vim74/syntax/nosyntax.vim"
+fin du sourcement de /usr/share/vim/vim74/syntax/nosyntax.vim
+de retour dans /usr/share/vim/vim74/syntax/syntax.vim
+Recherche de "syntax/synload.vim" dans "/home/ryad/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/ryad/.vim/after"
+Recherche de "/home/ryad/.vim/syntax/synload.vim"
+Recherche de "/var/lib/vim/addons/syntax/synload.vim"
+Recherche de "/usr/share/vim/vimfiles/syntax/synload.vim"
+Recherche de "/usr/share/vim/vim74/syntax/synload.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+ligne 19 : sourcement de "/usr/share/vim/vim74/syntax/synload.vim"
+Recherche de "syntax/syncolor.vim" dans "/home/ryad/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/ryad/.vim/after"
+Recherche de "/home/ryad/.vim/syntax/syncolor.vim"
+Recherche de "/var/lib/vim/addons/syntax/syncolor.vim"
+Recherche de "/usr/share/vim/vimfiles/syntax/syncolor.vim"
+Recherche de "/usr/share/vim/vim74/syntax/syncolor.vim"
+chdir(/usr/share/vim/vim74/syntax)
+fchdir() to previous dir
+ligne 21 : sourcement de "/usr/share/vim/vim74/syntax/syncolor.vim"
+fin du sourcement de /usr/share/vim/vim74/syntax/syncolor.vim
+de retour dans /usr/share/vim/vim74/syntax/synload.vim
+Recherche de "/usr/share/vim/vimfiles/after/syntax/syncolor.vim"
+Recherche de "/var/lib/vim/addons/after/syntax/syncolor.vim"
+Recherche de "/home/ryad/.vim/after/syntax/syncolor.vim"
+fin du sourcement de /usr/share/vim/vim74/syntax/synload.vim
+de retour dans /usr/share/vim/vim74/syntax/syntax.vim
+fin du sourcement de /usr/share/vim/vim74/syntax/syntax.vim
+de retour dans /home/ryad/.vimrc
+Recherche de "ftoff.vim" dans "/home/ryad/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/ryad/.vim/after"
+Recherche de "/home/ryad/.vim/ftoff.vim"
+Recherche de "/var/lib/vim/addons/ftoff.vim"
+Recherche de "/usr/share/vim/vimfiles/ftoff.vim"
+Recherche de "/usr/share/vim/vim74/ftoff.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+ligne 34 : sourcement de "/usr/share/vim/vim74/ftoff.vim"
+fin du sourcement de /usr/share/vim/vim74/ftoff.vim
+de retour dans /home/ryad/.vimrc
+Recherche de "/usr/share/vim/vimfiles/after/ftoff.vim"
+Recherche de "/var/lib/vim/addons/after/ftoff.vim"
+Recherche de "/home/ryad/.vim/after/ftoff.vim"
+Recherche de "autoload/pathogen.vim" dans "/home/ryad/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/ryad/.vim/after"
+Recherche de "/home/ryad/.vim/autoload/pathogen.vim"
+Recherche de "/var/lib/vim/addons/autoload/pathogen.vim"
+Recherche de "/usr/share/vim/vimfiles/autoload/pathogen.vim"
+Recherche de "/usr/share/vim/vim74/autoload/pathogen.vim"
+Recherche de "/usr/share/vim/vimfiles/after/autoload/pathogen.vim"
+Recherche de "/var/lib/vim/addons/after/autoload/pathogen.vim"
+Recherche de "/home/ryad/.vim/after/autoload/pathogen.vim"
+introuvable dans 'runtimepath' : "autoload/pathogen.vim"
+Recherche de "autoload/pathogen.vim" dans "/home/ryad/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/ryad/.vim/after"
+Recherche de "/home/ryad/.vim/autoload/pathogen.vim"
+Recherche de "/var/lib/vim/addons/autoload/pathogen.vim"
+Recherche de "/usr/share/vim/vimfiles/autoload/pathogen.vim"
+Recherche de "/usr/share/vim/vim74/autoload/pathogen.vim"
+Recherche de "/usr/share/vim/vimfiles/after/autoload/pathogen.vim"
+Recherche de "/var/lib/vim/addons/after/autoload/pathogen.vim"
+Recherche de "/home/ryad/.vim/after/autoload/pathogen.vim"
+introuvable dans 'runtimepath' : "autoload/pathogen.vim"
+                                                        Erreur détectée en traitant /home/ryad/.vimrc :
+ligne   35 :
+E117: Fonction inconnue : pathogen#runtime_append_all_bundles
+Recherche de "autoload/pathogen.vim" dans "/home/ryad/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/ryad/.vim/after"
+Recherche de "/home/ryad/.vim/autoload/pathogen.vim"
+Recherche de "/var/lib/vim/addons/autoload/pathogen.vim"
+Recherche de "/usr/share/vim/vimfiles/autoload/pathogen.vim"
+Recherche de "/usr/share/vim/vim74/autoload/pathogen.vim"
+Recherche de "/usr/share/vim/vimfiles/after/autoload/pathogen.vim"
+Recherche de "/var/lib/vim/addons/after/autoload/pathogen.vim"
+Recherche de "/home/ryad/.vim/after/autoload/pathogen.vim"
+introuvable dans 'runtimepath' : "autoload/pathogen.vim"
+ligne   36 :
+E117: Fonction inconnue : pathogen#helptags
+:!mkdir ~/.vim/backups > /dev/null 2>&1
+
+Appel du shell pour exécuter : "mkdir ~/.vim/backups > /dev/null 2>&1"
+le shell a retourné 1
+
+Recherche de "filetype.vim" dans "/home/ryad/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/ryad/.vim/after"
+Recherche de "/home/ryad/.vim/filetype.vim"
+Recherche de "/var/lib/vim/addons/filetype.vim"
+Recherche de "/usr/share/vim/vimfiles/filetype.vim"
+Recherche de "/usr/share/vim/vim74/filetype.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+ligne 63 : sourcement de "/usr/share/vim/vim74/filetype.vim"
+Recherche de "ftdetect/*.vim" dans "/home/ryad/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/ryad/.vim/after"
+Recherche de "/home/ryad/.vim/ftdetect/*.vim"
+Recherche de "/var/lib/vim/addons/ftdetect/*.vim"
+Recherche de "/usr/share/vim/vimfiles/ftdetect/*.vim"
+Recherche de "/usr/share/vim/vim74/ftdetect/*.vim"
+Recherche de "/usr/share/vim/vimfiles/after/ftdetect/*.vim"
+Recherche de "/var/lib/vim/addons/after/ftdetect/*.vim"
+Recherche de "/home/ryad/.vim/after/ftdetect/*.vim"
+introuvable dans 'runtimepath' : "ftdetect/*.vim"
+fin du sourcement de /usr/share/vim/vim74/filetype.vim
+de retour dans /home/ryad/.vimrc
+Recherche de "/usr/share/vim/vimfiles/after/filetype.vim"
+Recherche de "/var/lib/vim/addons/after/filetype.vim"
+Recherche de "/home/ryad/.vim/after/filetype.vim"
+Recherche de "ftplugin.vim" dans "/home/ryad/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/ryad/.vim/after"
+Recherche de "/home/ryad/.vim/ftplugin.vim"
+Recherche de "/var/lib/vim/addons/ftplugin.vim"
+Recherche de "/usr/share/vim/vimfiles/ftplugin.vim"
+Recherche de "/usr/share/vim/vim74/ftplugin.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+ligne 63 : sourcement de "/usr/share/vim/vim74/ftplugin.vim"
+fin du sourcement de /usr/share/vim/vim74/ftplugin.vim
+de retour dans /home/ryad/.vimrc
+Recherche de "/usr/share/vim/vimfiles/after/ftplugin.vim"
+Recherche de "/var/lib/vim/addons/after/ftplugin.vim"
+Recherche de "/home/ryad/.vim/after/ftplugin.vim"
+Recherche de "filetype.vim" dans "/home/ryad/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/ryad/.vim/after"
+Recherche de "/home/ryad/.vim/filetype.vim"
+Recherche de "/var/lib/vim/addons/filetype.vim"
+Recherche de "/usr/share/vim/vimfiles/filetype.vim"
+Recherche de "/usr/share/vim/vim74/filetype.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+ligne 64 : sourcement de "/usr/share/vim/vim74/filetype.vim"
+fin du sourcement de /usr/share/vim/vim74/filetype.vim
+de retour dans /home/ryad/.vimrc
+Recherche de "/usr/share/vim/vimfiles/after/filetype.vim"
+Recherche de "/var/lib/vim/addons/after/filetype.vim"
+Recherche de "/home/ryad/.vim/after/filetype.vim"
+Recherche de "indent.vim" dans "/home/ryad/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/ryad/.vim/after"
+Recherche de "/home/ryad/.vim/indent.vim"
+Recherche de "/var/lib/vim/addons/indent.vim"
+Recherche de "/usr/share/vim/vimfiles/indent.vim"
+Recherche de "/usr/share/vim/vim74/indent.vim"
+chdir(/usr/share/vim/vim74)
+fchdir() to previous dir
+ligne 64 : sourcement de "/usr/share/vim/vim74/indent.vim"
+fin du sourcement de /usr/share/vim/vim74/indent.vim
+de retour dans /home/ryad/.vimrc
+Recherche de "/usr/share/vim/vimfiles/after/indent.vim"
+Recherche de "/var/lib/vim/addons/after/indent.vim"
+Recherche de "/home/ryad/.vim/after/indent.vim"
+chdir(/home/ryad/.yadr/vim)
+fchdir() to previous dir
+ligne 103 : sourcement de "/home/ryad/.yadr/vim/settings.vim"
+fin du sourcement de /home/ryad/.yadr/vim/settings.vim
+de retour dans /home/ryad/.vimrc
+fin du sourcement de $HOME/.vimrc
+Recherche de "plugin/**/*.vim" dans "/home/ryad/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,/home/ryad/.vim/after"
+Recherche de "/home/ryad/.vim/plugin/**/*.vim"
+Recherche de "/var/lib/vim/addons/plugin/**/*.vim"
+Recherche de "/usr/share/vim/vimfiles/plugin/**/*.vim"
+Recherche de "/usr/share/vim/vim74/plugin/**/*.vim"
+chdir(/usr/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcement "/usr/share/vim/vim74/plugin/getscriptPlugin.vim"
+fin du sourcement de /usr/share/vim/vim74/plugin/getscriptPlugin.vim
+chdir(/usr/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcement "/usr/share/vim/vim74/plugin/gzip.vim"
+fin du sourcement de /usr/share/vim/vim74/plugin/gzip.vim
+chdir(/usr/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcement "/usr/share/vim/vim74/plugin/matchparen.vim"
+fin du sourcement de /usr/share/vim/vim74/plugin/matchparen.vim
+chdir(/usr/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcement "/usr/share/vim/vim74/plugin/netrwPlugin.vim"
+fin du sourcement de /usr/share/vim/vim74/plugin/netrwPlugin.vim
+chdir(/usr/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcement "/usr/share/vim/vim74/plugin/rrhelper.vim"
+fin du sourcement de /usr/share/vim/vim74/plugin/rrhelper.vim
+chdir(/usr/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcement "/usr/share/vim/vim74/plugin/spellfile.vim"
+fin du sourcement de /usr/share/vim/vim74/plugin/spellfile.vim
+chdir(/usr/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcement "/usr/share/vim/vim74/plugin/tarPlugin.vim"
+fin du sourcement de /usr/share/vim/vim74/plugin/tarPlugin.vim
+chdir(/usr/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcement "/usr/share/vim/vim74/plugin/tohtml.vim"
+fin du sourcement de /usr/share/vim/vim74/plugin/tohtml.vim
+chdir(/usr/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcement "/usr/share/vim/vim74/plugin/vimballPlugin.vim"
+fin du sourcement de /usr/share/vim/vim74/plugin/vimballPlugin.vim
+chdir(/usr/share/vim/vim74/plugin)
+fchdir() to previous dir
+sourcement "/usr/share/vim/vim74/plugin/zipPlugin.vim"
+fin du sourcement de /usr/share/vim/vim74/plugin/zipPlugin.vim
+Recherche de "/usr/share/vim/vimfiles/after/plugin/**/*.vim"
+Recherche de "/var/lib/vim/addons/after/plugin/**/*.vim"
+Recherche de "/home/ryad/.vim/after/plugin/**/*.vim"
+L'ouverture du display X a pris 0 ms
+Lecture du fichier viminfo "/home/ryad/.viminfo" info vieux fichiers
+L'ouverture du display X a pris 1 ms
+Exécution de Autocommandes BufEnter pour "*"
+autocommande sil! call s:LocalBrowse(expand("<amatch>"))
+
+Exécution de Autocommandes VimEnter pour "*"
+autocommande sil! call s:VimEnter(expand("<amatch>"))
+
+Exécution de Autocommandes CursorMoved pour "*"
+autocommande call s:Highlight_Matching_Pair()
+Enregistrement
+
+Écriture du fichier viminfo "/home/ryad/.viminfo"
