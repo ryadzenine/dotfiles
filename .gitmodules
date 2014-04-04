@@ -80,18 +80,9 @@
 [submodule "vim/bundle/YankRing.vim"]
 	path = vim/bundle/YankRing.vim
 	url = https://github.com/skwp/YankRing.vim.git
-[submodule "vim/bundle/solarized"]
-	path = vim/bundle/solarized
-	url = https://github.com/altercation/vim-colors-solarized
 [submodule "vim/bundle/vim-misc"]
 	path = vim/bundle/vim-misc
 	url = https://github.com/xolox/vim-misc
-[submodule "vim/bundle/vim-gocode"]
-	path = vim/bundle/vim-gocode
-	url = https://github.com/Blackrush/vim-gocode
-[submodule "vim/bundle/vim-godef"]
-	path = vim/bundle/vim-godef
-	url = https://github.com/dgryski/vim-godef
 [submodule "autojump"]
 	path = autojump
 	url = https://github.com/joelthelion/autojump
