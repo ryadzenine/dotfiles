@@ -64,7 +64,7 @@ It is recommended to use this file to set your user info. Alternately, you can s
 ## Vim - What's included?
 
  * [Navigation - NERDTree, CtrlP and more](doc/vim/navigation.md)
- * [Code manipulation - python support, comments, golang support( godoc, gofmt), highlighting](doc/vim/coding.md)
+ * [Code manipulation - python support, comments, golang support(vim-go), highlighting](doc/vim/coding.md)
  * [Utils - indents, paste buffer management, lots more](doc/vim/utils.md)
  * [General enhancements that don't add new commands](doc/vim/enhancements.md)
 

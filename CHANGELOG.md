@@ -1,3 +1,8 @@
+2014-04-04
+==================
+ * Installing solarized and gruvbox colorscheme
+ * removing vim-gocode vim-godef and installing vim-go
+
 2014-02-22
 ==================
  * Changed neocompletion to supertab
