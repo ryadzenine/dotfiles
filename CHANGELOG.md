@@ -1,3 +1,10 @@
+2014-04-11
+==================
+ * clean des plugins inutilisés 
+ * installation de command-T en replacement de ctrlP
+ * installation de vim-ctrlspace 
+ * installation de vim-sneak
+
 2014-04-04
 ==================
  * Installing solarized and gruvbox colorscheme
