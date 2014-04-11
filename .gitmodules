@@ -20,18 +20,9 @@
 [submodule "vim/bundle/vim-golang"]
 	path = vim/bundle/vim-golang
 	url = https://github.com/jnwhiteh/vim-golang.git
-[submodule "vim/bundle/vim-nerdtree-tabs"]
-	path = vim/bundle/vim-nerdtree-tabs
-	url = https://github.com/jistr/vim-nerdtree-tabs.git
-[submodule "vim/bundle/nerdtree"]
-	path = vim/bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
 [submodule "vim/bundle/tagbar"]
 	path = vim/bundle/tagbar
 	url = https://github.com/majutsushi/tagbar.git
-[submodule "vim/bundle/neocomplete"]
-	path = vim/bundle/neocomplete
-	url = https://github.com/Shougo/neocomplete.vim.git
 [submodule "vim/bundle/tcomment_vim"]
 	path = vim/bundle/tcomment_vim
 	url = https://github.com/tomtom/tcomment_vim.git
@@ -53,9 +44,6 @@
 [submodule "vim/bundle/vim-git"]
 	path = vim/bundle/vim-git
 	url = https://github.com/tpope/vim-git.git
-[submodule "vim/bundle/ctrlp.vim"]
-	path = vim/bundle/ctrlp.vim
-	url = https://github.com/kien/ctrlp.vim.git
 [submodule "vim/bundle/vim-session"]
 	path = vim/bundle/vim-session
 	url = https://github.com/xolox/vim-session.git
@@ -86,15 +74,15 @@
 [submodule "autojump"]
 	path = autojump
 	url = https://github.com/joelthelion/autojump
-[submodule "vim/bundle/supertab"]
-	path = vim/bundle/supertab
-	url = https://github.com/ervandew/supertab.git
 [submodule "vim/bundle/vim-go"]
 	path = vim/bundle/vim-go
 	url = https://github.com/fatih/vim-go.git
 [submodule "vim/bundle/YouCompleteMe"]
 	path = vim/bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
-[submodule "vim/bundle/neosnippet"]
-	path = vim/bundle/neosnippet
-	url = https://github.com/Shougo/neosnippet.vim.git
+[submodule "vim/bundle/sneak"]
+	path = vim/bundle/sneak
+	url = https://github.com/justinmk/vim-sneak.git
+[submodule "vim/bundle/vim-ctrlspace"]
+	path = vim/bundle/vim-ctrlspace
+	url = https://github.com/szw/vim-ctrlspace.git
