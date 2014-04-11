@@ -63,7 +63,7 @@ It is recommended to use this file to set your user info. Alternately, you can s
 
 ## Vim - What's included?
 
- * [Navigation - NERDTree, CtrlP and more](doc/vim/navigation.md)
+ * [Navigation - ctrl-space, command-T and more](doc/vim/navigation.md)
  * [Code manipulation - python support, comments, golang support(vim-go), highlighting](doc/vim/coding.md)
  * [Utils - indents, paste buffer management, lots more](doc/vim/utils.md)
  * [General enhancements that don't add new commands](doc/vim/enhancements.md)
@@ -102,9 +102,8 @@ of plugins above to learn more.
 
 #### File Navigation
 
- * `,t` - CtrlP fuzzy file selector
- * `,b` - CtrlP buffer selector - great for jumping to a file you already have open
- * `Cmd-Shift-M` - jump to method - CtrlP tag search within current buffer
+ * `,t` - CommandT fuzzy file selector
+ * `,b` - CommandT buffer selector - great for jumping to a file you already have open
  * `,jm` jump to models. Other `,j` mappings: `,jc` for controllers, `,jh` for helpers, etc. If you think of a concept and a letter, we've got you covered.
  * `Ctrl-Shift-N` - NERDTree toggle
  * `Ctrl-\` - Show current file in NERDTree
