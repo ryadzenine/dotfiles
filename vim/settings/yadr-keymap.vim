@@ -69,12 +69,6 @@ imap <c-l> <space>=><space>
 nnoremap ,. '.
 
 
-" ==== NERD tree
-" Cmd-Shift-N for nerd tree
-nmap <C-N> :NERDTreeToggle<CR>
-" Open the project tree and expose current file in the nerdtree with Ctrl-\
-nnoremap <silent> <C-\> :NERDTreeFind<CR>:vertical res 30<CR>
-
 " ,q to toggle quickfix window (where you have stuff like Ag)
 " ,oq to open it back up (rare)
 nmap <silent> ,qc :cclose<CR>
@@ -142,12 +136,6 @@ noremap ,hl :set hlsearch! hlsearch?<CR>
 nnoremap ' `
 nnoremap ` '
 
-" ============================
-" Tabularize - alignment
-" ============================
-" Hit Cmd-Shift-A then type a character you want to align by
-nmap <C-A> :Tabularize /
-vmap <C-A> :Tabularize /
 
 " Source current file Cmd-% (good for vim development)
 map <D-%> :so %<CR>
