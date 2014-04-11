@@ -86,3 +86,6 @@
 [submodule "vim/bundle/vim-ctrlspace"]
 	path = vim/bundle/vim-ctrlspace
 	url = https://github.com/szw/vim-ctrlspace.git
+[submodule "vim/bundle/commandt"]
+	path = vim/bundle/commandt
+	url = https://github.com/wincent/Command-T.git
