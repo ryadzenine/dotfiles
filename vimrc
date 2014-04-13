@@ -12,6 +12,7 @@ call pathogen#helptags()
 " ================ General Config ====================
 
 set number                      "Line numbers are good
+set relativenumber              "Show the relative line numers , the line under your cursor is the 0
 set backspace=indent,eol,start  "Allow backspace in insert mode
 set history=1000                "Store lots of :cmdline history
 set showcmd                     "Show incomplete cmds down the bottom

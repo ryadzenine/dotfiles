@@ -6,7 +6,6 @@ au Filetype go nnoremap <leader>r :GoRun %<CR>
 "the identified under your cursor:
 au Filetype go nnoremap <leader>v :vsp <CR>:exe "GoDef" <CR>
 au Filetype go nnoremap <leader>s :sp <CR>:exe "GoDef"<CR>
-au Filetype go nnoremap <leader>t :tab split <CR>:exe "GoDef"<CR>
 
 let g:go_fmt_command = "gofmt"
 let g:go_snippet_engine = "neosnippet"
