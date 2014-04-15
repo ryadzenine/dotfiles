@@ -1,9 +1,15 @@
 " Make it beautiful - colors and fonts
 
-" http://ethanschoonover.com/solarized/vim-colors-solarized
-colorscheme solarized
+" ------------------------------------------------------------------
+" Solarized Colorscheme Config
+" ------------------------------------------------------------------
+let g:solarized_contrast="high"    "default value is normal
+let g:solarized_visibility="low"    "default value is normal
+let g:solarized_diffmode="high"    "default value is normal
+syntax enable
 set background=dark
-
+colorscheme solarized
+" ------------------------------------------------------------------
 if has("gui_running")
   "tell the term has 256 colors
   set t_Co=256
