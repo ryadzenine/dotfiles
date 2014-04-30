@@ -1,14 +1,8 @@
 " Make it beautiful - colors and fonts
 
-" ------------------------------------------------------------------
-" Solarized Colorscheme Config
-" ------------------------------------------------------------------
-let g:solarized_contrast="high"    "default value is normal
-let g:solarized_visibility="low"    "default value is normal
-let g:solarized_diffmode="high"    "default value is normal
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme hybrid
 " ------------------------------------------------------------------
 if has("gui_running")
   "tell the term has 256 colors

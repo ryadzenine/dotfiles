@@ -20,7 +20,3 @@ ln -s $HOME/.yadr/vim $HOME/.vim
 #                  BASH                       #
 #---------------------------------------------#
 ln -s $HOME/.yadr/bashrc $HOME/.bashrc
-#---------------------------------------------#
-#                  TMUX                       #
-#---------------------------------------------#
-ln -s $HOME/.yadr/tmux/tmux.conf $HOME/.tmux.conf
