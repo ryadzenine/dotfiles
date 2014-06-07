@@ -6,9 +6,6 @@ Updated the vim configuration to use pathogen instead of Vundle
 
 I also added my bashrc with support to [liquidprompt](https://github.com/nojhan/liquidprompt).
 
-There is still, to much vim plugins, so you have to expect some of them to disaper. some keybindings will probably be changed too.
-YADR provided an amazing working base that i will be updating to make it more convenient for me regarding my workflow. 
-
 Feel free to fork my work. otherwise you can use the amazing [YADR](https://github.com/skwp/dotfiles)
 ## Installation
 
@@ -63,7 +60,7 @@ It is recommended to use this file to set your user info. Alternately, you can s
 
 ## Vim - What's included?
 
- * [Navigation - ctrl-space, command-T and more](doc/vim/navigation.md)
+ * [Navigation - ctrl-space, command-T, easy-motion  and more](doc/vim/navigation.md)
  * [Code manipulation - python support, comments, golang support(vim-go), highlighting](doc/vim/coding.md)
  * [Utils - indents, paste buffer management, lots more](doc/vim/utils.md)
  * [General enhancements that don't add new commands](doc/vim/enhancements.md)
@@ -111,7 +108,7 @@ of plugins above to learn more.
 
 #### Better keystrokes for common editing commands
 
- * Cmd-Space to autocomplete. Tab for snipmate snippets.
+ * Automatic autocomplete using [Ycm](https://github.com/Valloric/YouCompleteMe).
  *  `,"` `,'` `,]` `,)` `,}` to surround a word in these common wrappers. the # does #{ruby interpolation}. works in visual mode (thanks @cj). Normally these are done with something like `ysw#`
  * `,.` to go to last edit location (same as `'.`) because the apostrophe is hard on the pinky
  * `,ci` to change inside any set of quotes/brackets/etc
