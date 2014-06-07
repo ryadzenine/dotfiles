@@ -16,3 +16,6 @@ au FileType go nmap <Leader>dv <Plug>(go-def-vertical)
 "
 "Show type info for the word under your cursor 
 au FileType go nmap <Leader>i <Plug>(go-info)
+"Lint the file
+au FileType go nmap <Leader>gl :GoLint<CR>
+au FileType go nmap <Leader>gv :GoVet<CR>
