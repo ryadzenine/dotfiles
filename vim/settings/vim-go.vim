@@ -19,3 +19,5 @@ au FileType go nmap <Leader>i <Plug>(go-info)
 "Lint the file
 au FileType go nmap <Leader>gl :GoLint<CR>
 au FileType go nmap <Leader>gv :GoVet<CR>
+
+let g:go_snippet_engine = "neosnippet"
