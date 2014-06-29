@@ -99,5 +99,7 @@ set sidescrolloff=15
 set sidescroll=1
 
 
+" ================ Status Line ===========================
+set laststatus=2
 " ================ Custom Settings ========================
 so ~/.vim/settings.vim
