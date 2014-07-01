@@ -83,3 +83,6 @@
 [submodule "vim/bundle/vim-mochalatte"]
 	path = vim/bundle/vim-mochalatte
 	url = https://github.com/jeetsukumaran/vim-mochalatte
+[submodule "vim/bundle/vim-markdown"]
+	path = vim/bundle/vim-markdown
+	url = https://github.com/tpope/vim-markdown.git
