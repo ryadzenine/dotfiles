@@ -86,3 +86,6 @@
 [submodule "vim/bundle/vim-markdown"]
 	path = vim/bundle/vim-markdown
 	url = https://github.com/tpope/vim-markdown.git
+[submodule "vim/bundle/limelight.vim"]
+	path = vim/bundle/limelight.vim
+	url = https://github.com/junegunn/limelight.vim.git
