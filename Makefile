@@ -4,6 +4,7 @@ all: base vim git fonts
 
 update:
 	git submodule foreach git pull origin master 
+	git commit vim/bundle -m"mise a jours des plugins tiers, `date`"
 
 #---------------------------------------------#
 #                    GIT                      #
