@@ -6,7 +6,7 @@ set nocompatible
 " ==========================================================
 " Load pathogen with docs for all plugins
 filetype off
-let g:go_disable_autoinstall = 1
+"let g:go_disable_autoinstall = 1
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 " ================ General Config ====================
