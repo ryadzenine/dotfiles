@@ -74,6 +74,3 @@
 [submodule "vim/bundle/limelight.vim"]
 	path = vim/bundle/limelight.vim
 	url = https://github.com/junegunn/limelight.vim.git
-[submodule "vim/bundle/semantic-highlight.vim"]
-	path = vim/bundle/semantic-highlight.vim
-	url = https://github.com/jaxbot/semantic-highlight.vim.git
