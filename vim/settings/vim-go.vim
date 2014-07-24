@@ -21,3 +21,4 @@ au FileType go nmap <Leader>gl :GoLint<CR>
 au FileType go nmap <Leader>gv :GoVet<CR>
 
 let g:go_snippet_engine = "neosnippet"
+let g:go_gocode_bin="/usr/local/go/bin"
