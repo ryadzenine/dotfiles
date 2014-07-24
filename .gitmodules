@@ -86,3 +86,6 @@
 [submodule "vim/bundle/textobj-word-column.vim"]
 	path = vim/bundle/textobj-word-column.vim
 	url = https://github.com/coderifous/textobj-word-column.vim
+[submodule "vim/bundle/vim-commentary"]
+	path = vim/bundle/vim-commentary
+	url = https://github.com/tpope/vim-commentary.vim
