@@ -1,7 +1,7 @@
 "Open the relevant Godoc for the word under the cursor with <leader>gd or open it vertically with <leader>gv
 au FileType go nmap <Leader>gd <Plug>(go-doc)
 au FileType go nmap <Leader>gv <Plug>(go-doc-vertical)
-"
+
 "Run commands, such as go run with <leader>r for the current file or go build and go test for the current package with <leader>b and <leader>t.
 au FileType go nmap <leader>gr <Plug>(go-run)
 au FileType go nmap <leader>gb <Plug>(go-build)
@@ -21,4 +21,3 @@ au FileType go nmap <Leader>gl :GoLint<CR>
 au FileType go nmap <Leader>gv :GoVet<CR>
 
 let g:go_snippet_engine = "neosnippet"
-let g:go_gocode_bin="/usr/local/go/bin"
