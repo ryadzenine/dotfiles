@@ -1,16 +1,16 @@
 # YADR
 ## What is it about :
-This is my dotfiles project , it is strongly inspired from [YADR](https://github.com/skwp/dotfiles), i just removed all the plugins that i don't need,
+This is my dotfiles project. It is inspired from [YADR](https://github.com/skwp/dotfiles). I removed all the plugins that i don't need,
 removed html/css/javascript/ruby/rails support, added python and golang support.
-Updated the vim configuration to use pathogen instead of Vundle
+I also updated the vim configuration to use pathogen instead of Vundle.
 
 I also added my bashrc with support to [liquidprompt](https://github.com/nojhan/liquidprompt).
 
-Feel free to fork my work. otherwise you can use the amazing [YADR](https://github.com/skwp/dotfiles)
+Feel free to fork my work. Otherwise you can use the amazing [YADR](https://github.com/skwp/dotfiles)
 ## Installation
 
 To get started please run:
-Just clone the repo and run install.sh, the installation script need some improvements for now on it will overwrite all your rc files.
+Just clone the repo and run make. To update the plugins, please run make update.
 
 
 ## What's included, and how to customize?
@@ -60,8 +60,8 @@ It is recommended to use this file to set your user info. Alternately, you can s
 
 ## Vim - What's included?
 
- * [Navigation - ctrl-space, command-T, easy-motion  and more](doc/vim/navigation.md)
- * [Code manipulation - python support, comments, golang support(vim-go), highlighting](doc/vim/coding.md)
+ * [Navigation : ctrl-space, easy-motion  and more](doc/vim/navigation.md)
+ * [Code manipulation : python support, golang-support, comments, highlighting](doc/vim/coding.md)
  * [Utils - indents, paste buffer management, lots more](doc/vim/utils.md)
  * [General enhancements that don't add new commands](doc/vim/enhancements.md)
 
@@ -74,19 +74,15 @@ of plugins above to learn more.
 
  * `,z` - go to previous buffer (:bp)
  * `,x` - go to next buffer (:bn)
- * `Cmd-j` and `Cmd-k` to move up and down roughly by functions
  * `Ctrl-o` - Old cursor position - this is a standard mapping but very useful, so included here
  * `Ctrl-i` - opposite of Ctrl-O (again, this is standard)
 
 #### Search/Code Navigation
 
- * `,f` - instantly Find definition of class (must have exuberant ctags installed)
- * `,F` - same as `,f` but in a vertical split
  * `,gf` or `Ctrl-f` - same as vim normal gf (go to file), but in a vertical split (works with file.rb:123 line numbers also)
  * `gF` - standard vim mapping, here for completeness (go to file at line number)
  * `K` - Search the current word under the cursor and show results in quickfix window
  * `,K` - Grep the current word up to next exclamation point (useful for ruby foo! methods)
- * `Cmd-*` - highlight all occurrences of current word (similar to regular `*` except doesn't move)
  * `,hl` - toggle search highlight on and off
  * `,gg` or `,ag` - Grep command line, type between quotes. Uses Ag Silver Searcher.
  * `,gd` - Grep def (greps for 'def [function name]') when cursor is over the function name
@@ -99,17 +95,13 @@ of plugins above to learn more.
 
 #### File Navigation
 
- * `,t` - CommandT fuzzy file selector
- * `,b` - CommandT buffer selector - great for jumping to a file you already have open
- * `,jm` jump to models. Other `,j` mappings: `,jc` for controllers, `,jh` for helpers, etc. If you think of a concept and a letter, we've got you covered.
- * `Ctrl-Shift-N` - NERDTree toggle
- * `Ctrl-\` - Show current file in NERDTree
- * `Ctrl-Shift-P` - Clear CtrlP cache
+ * `Ctrl-Space` toggle the ctrlspace plugin
+ * `,,f` easymotion 1-word motion 
 
 #### Better keystrokes for common editing commands
 
- * Automatic autocomplete using [Ycm](https://github.com/Valloric/YouCompleteMe).
- *  `,"` `,'` `,]` `,)` `,}` to surround a word in these common wrappers. the # does #{ruby interpolation}. works in visual mode (thanks @cj). Normally these are done with something like `ysw#`
+ * Automatic autocomplete using [Neocomplete](https://github.com/Shougo/Neocomplete)
+ *  `,"` `,'` `,]` `,)` `,}` to surround a word in these common wrappers.
  * `,.` to go to last edit location (same as `'.`) because the apostrophe is hard on the pinky
  * `,ci` to change inside any set of quotes/brackets/etc
 
@@ -125,7 +117,6 @@ of plugins above to learn more.
 #### Utility
 
  * `Ctrl-p` after pasting - Use `p` to paste and `Ctrl-p` to cycle through previous pastes. Provided by YankRing.
- * `,yr` - view the yankring - a list of your previous copy commands. also you can paste and hit `ctrl-p` for cycling through previous copy commands
  * `,ig` - toggle visual indentation guides
  * `,cf` - Copy Filename of current file (full path) into system (not vi) paste buffer
  * `,cn` - Copy Filename of current file (name only, no path)
@@ -133,20 +124,12 @@ of plugins above to learn more.
  * `,ow` - overwrite a word with whatever is in your yank buffer - you can be anywhere on the word. saves having to visually select it
  * `,ocf` - open changed files (stolen from @garybernhardt). open all files with git changes in splits
  * `,w` - strip trailing whitespaces
- * `sj` - split a line such as a hash {:foo => {:bar => :baz}} into a multiline hash (j = down)
  * `sk` - unsplit a link (k = up)
  * `,he` - Html Escape
  * `,hu` - Html Unescape
  * `,hp` - Html Preview (open in Safari)
- * `Ctrl-Shift-A` - align things (type a character/expression to align by, works in visual mode or by itself)
- * `:ColorToggle` - turn on #abc123 color highlighting (useful for css)
- * `:Gitv` - Git log browsers
  * `,hi` - show current Highlight group. if you don't like the color of something, use this, then use `hi! link [groupname] [anothergroupname]` in your vimrc.after to remap the color. You can see available colors using `:hi`
  * `,gt` - Go Tidy - tidy up your html code (works on a visual selection)
- * `:Wrap` - wrap long lines (e.g. when editing markdown files).
- * `Ctrl-/` - toggle comments (usually gcc from tComment)
- * `gcp` (comment a paragraph)
-
 
 #### Vim Dev
 

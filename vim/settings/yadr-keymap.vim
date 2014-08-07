@@ -75,11 +75,6 @@ nmap <silent> ,qc :cclose<CR>
 nmap <silent> ,qo :copen<CR>
 
 
-" Command-/ to toggle comments
-map <C-/> :TComment<CR>
-imap <C-/> <Esc>:TComment<CR>i
-
-
 "Move back and forth through previous and next buffers
 "with ,z and ,x
 nnoremap <silent> ,z :bp<CR>
@@ -135,8 +130,4 @@ noremap ,hl :set hlsearch! hlsearch?<CR>
 " swap them: http://items.sjbach.com/319/configuring-vim-right
 nnoremap ' `
 nnoremap ` '
-
-
-" Source current file Cmd-% (good for vim development)
-map <D-%> :so %<CR>
 
