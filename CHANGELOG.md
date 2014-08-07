@@ -1,3 +1,12 @@
+2014-(06:08)
+==================
+  * suppression de plugins inutilisé
+  * installation de plugins pour markdown
+  * installation de plugins pour les text objects args et indent
+  * installation de vim-commentary(tpope) 
+  * installation de neocompelete et neosnippets
+  * suppression de ctrlP
+
 2014-04-11
 ==================
  * clean des plugins inutilisés 
