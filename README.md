@@ -112,13 +112,6 @@ of plugins above to learn more.
  * `,yw` - yank a word from anywhere within the word (so you don't have to go to the beginning of it)
  * `,ow` - overwrite a word with whatever is in your yank buffer - you can be anywhere on the word. saves having to visually select it
  * `,ocf` - open changed files (stolen from @garybernhardt). open all files with git changes in splits
- * `,w` - strip trailing whitespaces
- * `sk` - unsplit a link (k = up)
- * `,he` - Html Escape
- * `,hu` - Html Unescape
- * `,hp` - Html Preview (open in Safari)
- * `,hi` - show current Highlight group. if you don't like the color of something, use this, then use `hi! link [groupname] [anothergroupname]` in your vimrc.after to remap the color. You can see available colors using `:hi`
- * `,gt` - Go Tidy - tidy up your html code (works on a visual selection)
 
 #### Vim Dev
 
