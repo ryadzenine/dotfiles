@@ -19,5 +19,9 @@ au FileType go nmap <Leader>i <Plug>(go-info)
 "Lint the file
 au FileType go nmap <Leader>gl :GoLint<CR>
 au FileType go nmap <Leader>gv :GoVet<CR>
+"Go Oracle maps 
+au FileType go nmap <Leader>goi :GoOracleImplements<CR>
+au FileType go nmap <Leader>god :GoOracleDescribe<CR>
+
 
 let g:go_snippet_engine = "neosnippet"
