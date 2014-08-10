@@ -82,28 +82,21 @@ of plugins above to learn more.
  * `,gf` or `Ctrl-f` - same as vim normal gf (go to file), but in a vertical split (works with file.rb:123 line numbers also)
  * `gF` - standard vim mapping, here for completeness (go to file at line number)
  * `K` - Search the current word under the cursor and show results in quickfix window
- * `,K` - Grep the current word up to next exclamation point (useful for ruby foo! methods)
  * `,hl` - toggle search highlight on and off
  * `,gg` or `,ag` - Grep command line, type between quotes. Uses Ag Silver Searcher.
  * `,gd` - Grep def (greps for 'def [function name]') when cursor is over the function name
  * `,gcf` - Grep Current File to find references to the current file
  * `//` - clear the search
- * `,T` - Tag list (list of methods in a class)
- * `,mc` - mark this word for MultiCursor (like sublime). Use `Ctrl-n` (next), `Ctrl-p` (prev), `Ctrl-x`(skip) to add more cursors, then do normal vim things like edit the word.
- * `gK` - Opens the documentation for the word under the cursor.
- * Spacebar - Sneak - type two characters to move there in a line. Kind of like vim's `f` but more accurate.
 
 #### File Navigation
 
  * `Ctrl-Space` toggle the ctrlspace plugin
- * `,,f` easymotion 1-word motion 
-
+ * easymotion 
 #### Better keystrokes for common editing commands
 
  * Automatic autocomplete using [Neocomplete](https://github.com/Shougo/Neocomplete)
  *  `,"` `,'` `,]` `,)` `,}` to surround a word in these common wrappers.
  * `,.` to go to last edit location (same as `'.`) because the apostrophe is hard on the pinky
- * `,ci` to change inside any set of quotes/brackets/etc
 
 #### Tabs, Windows, Splits
 
@@ -116,8 +109,6 @@ of plugins above to learn more.
 
 #### Utility
 
- * `Ctrl-p` after pasting - Use `p` to paste and `Ctrl-p` to cycle through previous pastes. Provided by YankRing.
- * `,ig` - toggle visual indentation guides
  * `,cf` - Copy Filename of current file (full path) into system (not vi) paste buffer
  * `,cn` - Copy Filename of current file (name only, no path)
  * `,yw` - yank a word from anywhere within the word (so you don't have to go to the beginning of it)
