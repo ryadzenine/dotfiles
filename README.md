@@ -84,8 +84,6 @@ of plugins above to learn more.
  * `K` - Search the current word under the cursor and show results in quickfix window
  * `,hl` - toggle search highlight on and off
  * `,gg` or `,ag` - Grep command line, type between quotes. Uses Ag Silver Searcher.
- * `,gd` - Grep def (greps for 'def [function name]') when cursor is over the function name
- * `,gcf` - Grep Current File to find references to the current file
  * `//` - clear the search
 
 #### File Navigation
