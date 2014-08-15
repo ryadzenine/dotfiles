@@ -1,11 +1,11 @@
 "Open the relevant Godoc for the word under the cursor with <leader>gd or open it vertically with <leader>gv
-au FileType go nmap <Leader>gd <Plug>(go-doc)
-au FileType go nmap <Leader>gv <Plug>(go-doc-vertical)
+au FileType go nmap <Leader>gd <Plug>(go-doc-vertical)
 
 "Run commands, such as go run with <leader>r for the current file or go build and go test for the current package with <leader>b and <leader>t.
-au FileType go nmap <leader>gr <Plug>(go-run)
-au FileType go nmap <leader>gb <Plug>(go-build)
-au FileType go nmap <leader>gt <Plug>(go-test)
+au FileType go nmap <leader>r <Plug>(go-run)
+au FileType go nmap <leader>b <Plug>(go-build)
+au FileType go nmap <leader>t <Plug>(go-test)
+au FileType go nmap <leader>gc <Plug>(go-coverage)
 
 "Replace gd (Goto Declaration) for the word under your cursor (replaces current buffer):
 au FileType go nmap gd <Plug>(go-def)
@@ -22,6 +22,5 @@ au FileType go nmap <Leader>gv :GoVet<CR>
 "Go Oracle maps 
 au FileType go nmap <Leader>goi :GoOracleImplements<CR>
 au FileType go nmap <Leader>god :GoOracleDescribe<CR>
-
 
 let g:go_snippet_engine = "neosnippet"
