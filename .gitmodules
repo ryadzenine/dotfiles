@@ -86,3 +86,6 @@
 [submodule "vim/bundle/vim-shell-executor"]
 	path = vim/bundle/vim-shell-executor
 	url = https://github.com/JarrodCTaylor/vim-shell-executor
+[submodule "vim/bundle/emmet-vim"]
+	path = vim/bundle/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
