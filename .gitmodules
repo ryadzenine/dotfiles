@@ -8,9 +8,6 @@
 [submodule "vim/bundle/vim-flavored-markdown"]
 	path = vim/bundle/vim-flavored-markdown
 	url = https://github.com/jtratner/vim-flavored-markdown.git
-[submodule "vim/bundle/syntastic"]
-	path = vim/bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.git
 [submodule "vim/bundle/python-mode"]
 	path = vim/bundle/python-mode
 	url = https://github.com/klen/python-mode.git
@@ -89,3 +86,6 @@
 [submodule "vim/bundle/emmet-vim"]
 	path = vim/bundle/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
+[submodule "vim/bundle/vim-git-gutter"]
+	path = vim/bundle/vim-git-gutter
+	url = https://github.com/airblade/vim-gitgutter.git
