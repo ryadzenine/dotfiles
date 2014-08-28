@@ -24,6 +24,12 @@ vim: base fonts
 	ln -s $(HOME)/.yadr/vimrc $(HOME)/.vimrc
 	ln -s $(HOME)/.yadr/vim $(HOME)/.vim
 #---------------------------------------------#
+#                   Bash                      #
+#---------------------------------------------#
+bash:
+	ln -s $(HOME)/.yadr/bashrc.after $(HOME)/.bashrc.after
+	echo source $HOME/.bashrc.after >> $(HOME)/.bashrc
+#---------------------------------------------#
 #                   FONTS                     #
 #---------------------------------------------#
 fonts: base
