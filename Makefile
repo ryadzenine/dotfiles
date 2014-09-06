@@ -1,5 +1,5 @@
 ROOT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
-all: base vim git fonts
+all: base bash vim git fonts
 	echo "Dotfiles successfully installed"
 
 update:
@@ -27,8 +27,7 @@ vim: base fonts
 #                   Bash                      #
 #---------------------------------------------#
 bash:
-	ln -s $(HOME)/.yadr/bashrc.after $(HOME)/.bashrc.after
-	echo source $HOME/.bashrc.after >> $(HOME)/.bashrc
+	ln -s $(HOME)/.yadr/bash_aliases $(HOME)/.bash_aliases
 #---------------------------------------------#
 #                   FONTS                     #
 #---------------------------------------------#
