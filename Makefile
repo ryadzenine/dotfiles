@@ -1,5 +1,5 @@
 ROOT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
-all: base bash vim git fonts
+all: base vim git fonts
 	echo "Dotfiles successfully installed"
 
 update:

@@ -34,7 +34,7 @@ syntax on
 " The mapleader has to be set before vundle starts loading all 
 " the plugins.
 let mapleader=","
-set shellcmdflag=-ic 
+" set shellcmdflag=-ic 
 " ================ Turn Off Swap Files ==============
 
 set noswapfile
