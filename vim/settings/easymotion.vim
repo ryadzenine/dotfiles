@@ -14,3 +14,10 @@ omap / <Plug>(easymotion-tn)
 " different highlight method and have some other features )
 map  n <Plug>(easymotion-next)
 map  N <Plug>(easymotion-prev)
+" Gif config
+map <Leader>m <Plug>(easymotion-lineforward)
+map <Leader>k <Plug>(easymotion-j)
+map <Leader>l <Plug>(easymotion-k)
+map <Leader>j <Plug>(easymotion-linebackward)
+
+let g:EasyMotion_startofline = 0 " keep cursor colum when JK motion
