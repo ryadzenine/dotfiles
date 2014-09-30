@@ -5,9 +5,6 @@
 [submodule "vim/bundle/vim-flavored-markdown"]
 	path = vim/bundle/vim-flavored-markdown
 	url = https://github.com/jtratner/vim-flavored-markdown.git
-[submodule "vim/bundle/python-mode"]
-	path = vim/bundle/python-mode
-	url = https://github.com/klen/python-mode.git
 [submodule "vim/bundle/vim-golang"]
 	path = vim/bundle/vim-golang
 	url = https://github.com/jnwhiteh/vim-golang.git
@@ -77,3 +74,6 @@
 [submodule "vim/bundle/neosnippet.vim"]
 	path = vim/bundle/neosnippet.vim
 	url = https://github.com/Shougo/neosnippet.vim
+[submodule "vim/bundle/jedi"]
+	path = vim/bundle/jedi
+	url = https://github.com/davidhalter/jedi-vim.git
