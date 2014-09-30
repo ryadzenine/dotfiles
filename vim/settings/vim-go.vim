@@ -23,5 +23,7 @@ au FileType go nmap <Leader>gv :GoVet<CR>
 au FileType go nmap <Leader>goi :GoOracleImplements<CR>
 au FileType go nmap <Leader>god :GoOracleDescribe<CR>
 
-"au FileType go nmap <silent> <Leader>gi :read !impl expand("<cword>")<Space> 
+au FileType go nmap <silent> <Leader>gp :read !impl 
+
 let g:go_snippet_engine = "neosnippet"
+let g:go_fmt_command = "goimports"
