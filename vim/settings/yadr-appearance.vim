@@ -1,8 +1,8 @@
 " Make it beautiful - colors and fonts
 
 syntax enable
-set background=dark
-colorscheme hybrid
+set background=light
+colorscheme solarized
 " ------------------------------------------------------------------
 if has("gui_running")
   "tell the term has 256 colors

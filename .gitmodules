@@ -29,9 +29,6 @@
 [submodule "vim/bundle/easymotion"]
 	path = vim/bundle/easymotion
 	url = https://github.com/Lokaltog/vim-easymotion.git
-[submodule "vim/bundle/vim-hybrid"]
-	path = vim/bundle/vim-hybrid
-	url = https://github.com/w0ng/vim-hybrid.git
 [submodule "vim/bundle/vim-repeat"]
 	path = vim/bundle/vim-repeat
 	url = git://github.com/tpope/vim-repeat.git
@@ -80,3 +77,6 @@
 [submodule "vim/bundle/vim-stratify"]
 	path = vim/bundle/vim-stratify
 	url = https://github.com/mhinz/vim-startify.git
+[submodule "vim/bundle/solarized"]
+	path = vim/bundle/solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
