@@ -1,5 +1,5 @@
 ROOT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
-all: base vim git fonts
+all: base tmux vim git fonts
 	echo "Dotfiles successfully installed"
 
 update:
@@ -21,14 +21,15 @@ git: base
 vim: base fonts
 	mv $(HOME)/.vimrc $(HOME)/.vimrc.save
 	mv $(HOME)/.vim $(HOME)/.vim.save
+	mv $(HOME)/.tmux.conf $(HOME)/.tmux.save
 	ln -s $(HOME)/.yadr/vimrc $(HOME)/.vimrc
 	ln -s $(HOME)/.yadr/vim $(HOME)/.vim
+	ln -s $(HOME)/.yadr/tmux/tmux.conf $(HOME)/.tmux.conf
 #---------------------------------------------#
 #                   Bash                      #
 #---------------------------------------------#
 bash:
 	ln -s $(HOME)/.yadr/bash_aliases $(HOME)/.bash_aliases
-#---------------------------------------------#
 #                   FONTS                     #
 #---------------------------------------------#
 fonts: base
