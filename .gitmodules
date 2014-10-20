@@ -74,9 +74,15 @@
 [submodule "vim/bundle/jedi"]
 	path = vim/bundle/jedi
 	url = https://github.com/davidhalter/jedi-vim.git
-[submodule "vim/bundle/vim-stratify"]
-	path = vim/bundle/vim-stratify
-	url = https://github.com/mhinz/vim-startify.git
 [submodule "vim/bundle/solarized"]
 	path = vim/bundle/solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "vim/bundle/vim-latex"]
+	path = vim/bundle/vim-latex
+	url = git://github.com/lervag/vim-latex.git
+[submodule "vim/bundle/vim-qml"]
+	path = vim/bundle/vim-qml
+	url = https://github.com/peterhoeg/vim-qml.git
+[submodule "vim/bundle/rust.vim"]
+	path = vim/bundle/rust.vim
+	url = https://github.com/wting/rust.vim.git
