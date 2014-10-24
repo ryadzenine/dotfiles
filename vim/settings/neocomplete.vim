@@ -36,4 +36,6 @@ let g:neocomplete#sources#omni#input_patterns.go = '[^.[:digit:] *\t]\.\w*'
 let g:neocomplete#sources#omni#input_patterns.cpp = '[^.[:digit:] *\t]\%(\.\|->\)\|\h\w*::'
 
 "Disable preview window
-set completeopt-=preview
+" set completeopt-=preview
+"
+autocmd CompleteDone * pclose
