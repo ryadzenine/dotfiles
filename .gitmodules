@@ -55,3 +55,6 @@
 [submodule "vim/bundle/vim-qml"]
 	path = vim/bundle/vim-qml
 	url = https://github.com/peterhoeg/vim-qml.git
+[submodule "vim/bundle/targets.vim"]
+	path = vim/bundle/targets.vim
+	url = https://github.com/wellle/targets.vim.git
