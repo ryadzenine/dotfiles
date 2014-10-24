@@ -46,9 +46,6 @@
 [submodule "vim/bundle/vim-autopep8"]
 	path = vim/bundle/vim-autopep8
 	url = https://github.com/tell-k/vim-autopep8.git
-[submodule "vim/bundle/targets.vim"]
-	path = vim/bundle/targets.vim
-	url = https://github.com/wellle/targets.vim.git
 [submodule "vim/bundle/jedi"]
 	path = vim/bundle/jedi
 	url = https://github.com/davidhalter/jedi-vim.git
