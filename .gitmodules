@@ -25,9 +25,6 @@
 [submodule "vim/bundle/vim-repeat"]
 	path = vim/bundle/vim-repeat
 	url = git://github.com/tpope/vim-repeat.git
-[submodule "vim/bundle/neocomplete.vim"]
-	path = vim/bundle/neocomplete.vim
-	url = https://github.com/Shougo/neocomplete.vim.git
 [submodule "vim/bundle/CamelCaseMotion"]
 	path = vim/bundle/CamelCaseMotion
 	url = https://github.com/bkad/CamelCaseMotion.git
@@ -46,9 +43,6 @@
 [submodule "vim/bundle/vim-autopep8"]
 	path = vim/bundle/vim-autopep8
 	url = https://github.com/tell-k/vim-autopep8.git
-[submodule "vim/bundle/jedi"]
-	path = vim/bundle/jedi
-	url = https://github.com/davidhalter/jedi-vim.git
 [submodule "vim/bundle/solarized"]
 	path = vim/bundle/solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
@@ -58,3 +52,15 @@
 [submodule "vim/bundle/targets.vim"]
 	path = vim/bundle/targets.vim
 	url = https://github.com/wellle/targets.vim.git
+[submodule "vim/bundle/vim-fireplace"]
+	path = vim/bundle/vim-fireplace
+	url = https://github.com/tpope/vim-fireplace.git
+[submodule "vim/bundle/syntastic"]
+	path = vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "vim/vim/YCM"]
+	path = vim/vim/YCM
+	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "vim/bundle/YCM"]
+	path = vim/bundle/YCM
+	url = https://github.com/Valloric/YouCompleteMe.git

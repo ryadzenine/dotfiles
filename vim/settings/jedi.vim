@@ -1,0 +1,6 @@
+let g:jedi#goto_assignments_command = "<leader>g"
+let g:jedi#goto_definitions_command = "gd"
+let g:jedi#documentation_command = "<leader>gd"
+let g:jedi#usages_command = "<leader>n"
+let g:jedi#rename_command = "<leader>r"
+let g:jedi#show_call_signatures = "1"
