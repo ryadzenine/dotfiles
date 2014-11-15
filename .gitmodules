@@ -19,15 +19,9 @@
 [submodule "vim/bundle/vim-go"]
 	path = vim/bundle/vim-go
 	url = https://github.com/fatih/vim-go.git
-[submodule "vim/bundle/easymotion"]
-	path = vim/bundle/easymotion
-	url = https://github.com/Lokaltog/vim-easymotion.git
 [submodule "vim/bundle/vim-repeat"]
 	path = vim/bundle/vim-repeat
 	url = git://github.com/tpope/vim-repeat.git
-[submodule "vim/bundle/CamelCaseMotion"]
-	path = vim/bundle/CamelCaseMotion
-	url = https://github.com/bkad/CamelCaseMotion.git
 [submodule "vim/bundle/vim/bundle/textobj-word-column.vim"]
 	path = vim/bundle/vim/bundle/textobj-word-column.vim
 	url = https://github.com/coderifous/textobj-word-column.vim
@@ -40,9 +34,6 @@
 [submodule "vim/bundle/ctrlp"]
 	path = vim/bundle/ctrlp
 	url = https://github.com/kien/ctrlp.vim.git
-[submodule "vim/bundle/vim-autopep8"]
-	path = vim/bundle/vim-autopep8
-	url = https://github.com/tell-k/vim-autopep8.git
 [submodule "vim/bundle/solarized"]
 	path = vim/bundle/solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
@@ -64,3 +55,9 @@
 [submodule "vim/bundle/YCM"]
 	path = vim/bundle/YCM
 	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "vim/bundle/emmet-vim"]
+	path = vim/bundle/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
+[submodule "vim/bundle/python-mode"]
+	path = vim/bundle/python-mode
+	url = https://github.com/klen/python-mode
