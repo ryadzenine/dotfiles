@@ -28,9 +28,6 @@
 [submodule "vim/bundle/vim-scala"]
 	path = vim/bundle/vim-scala
 	url = https://github.com/derekwyatt/vim-scala.git
-[submodule "vim/bundle/YCM"]
-	path = vim/bundle/YCM
-	url = https://github.com/valloric/YCM.git
 [submodule "vim/bundle/splitjoin.vim"]
 	path = vim/bundle/splitjoin.vim
 	url = https://github.com/AndrewRadev/splitjoin.vim.git
