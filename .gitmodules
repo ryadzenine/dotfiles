@@ -43,3 +43,9 @@
 [submodule "vim/bundle/unite.vim"]
 	path = vim/bundle/unite.vim
 	url = https://github.com/Shougo/unite.vim.git
+[submodule "vim/bundle/dbext.vim"]
+	path = vim/bundle/dbext.vim
+	url = https://github.com/vim-scripts/dbext.vim.git
+[submodule "vim/bundle/vim-sneak"]
+	path = vim/bundle/vim-sneak
+	url = https://github.com/justinmk/vim-sneak.git
