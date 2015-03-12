@@ -10,26 +10,21 @@ update:
 #                    GIT                      #
 #---------------------------------------------#
 git: base 
-	mv $(HOME)/.gitconfig $(HOME)/.gitconfig.save
-	mv $(HOME)/.gitignore $(HOME)/.gitignore.save
-	ln -s $(HOME)/.yadr/git/gitconfig $(HOME)/.gitconfig
-	ln -s $(HOME)/.yadr/git/gitignore $(HOME)/.gitignore
+	ln -fs $(HOME)/.yadr/git/gitconfig $(HOME)/.gitconfig
+	ln -fs $(HOME)/.yadr/git/gitignore $(HOME)/.gitignore
 
 #---------------------------------------------#
 #                   VIM                       #
 #---------------------------------------------#
 vim: base fonts
-	mv $(HOME)/.vimrc $(HOME)/.vimrc.save
-	mv $(HOME)/.vim $(HOME)/.vim.save
-	mv $(HOME)/.tmux.conf $(HOME)/.tmux.save
-	ln -s $(HOME)/.yadr/vimrc $(HOME)/.vimrc
-	ln -s $(HOME)/.yadr/vim $(HOME)/.vim
-	ln -s $(HOME)/.yadr/tmux/tmux.conf $(HOME)/.tmux.conf
+	ln -fs $(HOME)/.yadr/vimrc $(HOME)/.vimrc
+	ln -fs $(HOME)/.yadr/vim $(HOME)/.vim
+	ln -fs $(HOME)/.yadr/tmux/tmux.conf $(HOME)/.tmux.conf
 #---------------------------------------------#
 #                   Bash                      #
 #---------------------------------------------#
 bash:
-	ln -s $(HOME)/.yadr/bash_aliases $(HOME)/.bash_aliases
+	ln -fs $(HOME)/.yadr/bash_aliases $(HOME)/.bash_aliases
 #                   FONTS                     #
 #---------------------------------------------#
 fonts: base
