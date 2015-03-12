@@ -13,15 +13,17 @@ au FileType go nmap <Leader>dv <Plug>(go-def-vertical)
 "
 "Show type info for the word under your cursor 
 au FileType go nmap <Leader>i <Plug>(go-info)
+au FileType go nmap <leader>gd <Plug>(go-doc)
+au FileType go nmap <leader>gv <Plug>(go-doc-vertical)
+au FileType go nmap <leader>gb <Plug>(go-doc-browser)
 "Lint the file
 au FileType go nmap <Leader>gl :GoLint<CR>
 au FileType go nmap <Leader>gv :GoVet<CR>
 "Go Oracle maps 
-au FileType go nmap <Leader>goi :GoOracleImplements<CR>
-au FileType go nmap <Leader>god :GoOracleDescribe<CR>
+au FileType go nmap <Leader>s :GoImplements<CR>
 
 au FileType go nmap <Leader>gr :GoRename<CR>
-au FileType go nmap <silent> <Leader>gp :read !impl 
+au FileType go nmap <Leader>er :GoErrCheck<CR>
 
 let g:go_snippet_engine = "neosnippet"
 let g:go_fmt_command = "goimports"
