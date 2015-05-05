@@ -55,3 +55,9 @@
 [submodule "vim/bundle/vim-markdown"]
 	path = vim/bundle/vim-markdown
 	url = https://github.com/tpope/vim-markdown.git
+[submodule "vim/bundle/vim-scala"]
+	path = vim/bundle/vim-scala
+	url = https://github.com/derekwyatt/vim-scala.git
+[submodule "vim/bundle/vim-hopping"]
+	path = vim/bundle/vim-hopping
+	url = https://github.com/osyo-manga/vim-hopping
