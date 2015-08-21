@@ -13,51 +13,15 @@
 [submodule "vim/bundle/vim-repeat"]
 	path = vim/bundle/vim-repeat
 	url = git://github.com/tpope/vim-repeat.git
-[submodule "vim/bundle/solarized"]
-	path = vim/bundle/solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule "vim/bundle/vim-airline"]
-	path = vim/bundle/vim-airline
-	url = https://github.com/bling/vim-airline
 [submodule "vim/bundle/python-mode"]
 	path = vim/bundle/python-mode
 	url = https://github.com/klen/python-mode
-[submodule "vim/bundle/YCM"]
-	path = vim/bundle/YCM
-	url = https://github.com/Valloric/YouCompleteMe.git
-[submodule "vim/bundle/vim-flow"]
-	path = vim/bundle/vim-flow
-	url = https://github.com/facebook/vim-flow.git
-[submodule "vim/bundle/vim-javascript"]
-	path = vim/bundle/vim-javascript
-	url = https://github.com/pangloss/vim-javascript.git
-[submodule "vim/bundle/vim-jsx"]
-	path = vim/bundle/vim-jsx
-	url = https://github.com/mxw/vim-jsx.git
-[submodule "vim/bundle/neomru.vim"]
-	path = vim/bundle/neomru.vim
-	url = https://github.com/Shougo/neomru.vim.git
-[submodule "vim/bundle/vimproc.vim"]
-	path = vim/bundle/vimproc.vim
-	url = https://github.com/Shougo/vimproc.vim.git
-[submodule "vim/bundle/unite.vim"]
-	path = vim/bundle/unite.vim
-	url = https://github.com/Shougo/unite.vim.git
 [submodule "vim/bundle/dbext.vim"]
 	path = vim/bundle/dbext.vim
 	url = https://github.com/vim-scripts/dbext.vim.git
 [submodule "vim/bundle/vim-sneak"]
 	path = vim/bundle/vim-sneak
 	url = https://github.com/justinmk/vim-sneak.git
-[submodule "vim/bundle/emmet.vim"]
-	path = vim/bundle/emmet.vim
-	url = https://github.com/mattn/emmet-vim.git
 [submodule "vim/bundle/vim-markdown"]
 	path = vim/bundle/vim-markdown
 	url = https://github.com/tpope/vim-markdown.git
-[submodule "vim/bundle/vim-scala"]
-	path = vim/bundle/vim-scala
-	url = https://github.com/derekwyatt/vim-scala.git
-[submodule "vim/bundle/vim-hopping"]
-	path = vim/bundle/vim-hopping
-	url = https://github.com/osyo-manga/vim-hopping
