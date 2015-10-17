@@ -31,9 +31,6 @@
 [submodule "vim/bundle/syntastic"]
 	path = vim/bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
-[submodule "vim/bundle/vim-projectionist"]
-	path = vim/bundle/vim-projectionist
-	url = git://github.com/tpope/vim-projectionist.git
 [submodule "vim/bundle/vim-dispatch"]
 	path = vim/bundle/vim-dispatch
 	url = git://github.com/tpope/vim-dispatch.git
