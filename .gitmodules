@@ -25,3 +25,30 @@
 [submodule "vim/bundle/vim-markdown"]
 	path = vim/bundle/vim-markdown
 	url = https://github.com/tpope/vim-markdown.git
+[submodule "vim/bundle/vim-salve"]
+	path = vim/bundle/vim-salve
+	url = git://github.com/tpope/vim-salve.git
+[submodule "vim/bundle/syntastic"]
+	path = vim/bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git
+[submodule "vim/bundle/vim-projectionist"]
+	path = vim/bundle/vim-projectionist
+	url = git://github.com/tpope/vim-projectionist.git
+[submodule "vim/bundle/vim-dispatch"]
+	path = vim/bundle/vim-dispatch
+	url = git://github.com/tpope/vim-dispatch.git
+[submodule "vim/bundle/vim-fireplace"]
+	path = vim/bundle/vim-fireplace
+	url = git://github.com/tpope/vim-fireplace.git
+[submodule "vim/bundle/supertab"]
+	path = vim/bundle/supertab
+	url = git@github.com:ervandew/supertab.git
+[submodule "vim/bundle/bundle/ctrlp.vim"]
+	path = vim/bundle/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "vim/bundle/vim-eastwood"]
+	path = vim/bundle/vim-eastwood
+	url = https://github.com/venantius/vim-eastwood.git
+[submodule "vim/bundle/vim-cljfmt"]
+	path = vim/bundle/vim-cljfmt
+	url = https://github.com/venantius/vim-cljfmt.git
