@@ -2,7 +2,7 @@
 
 syntax enable
 set background=dark
-colorscheme PaperColor
+colorscheme delek
 " ------------------------------------------------------------------
 if has("gui_running")
   "tell the term has 256 colors
