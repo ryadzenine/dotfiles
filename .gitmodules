@@ -42,7 +42,7 @@
 	url = https://github.com/venantius/vim-eastwood.git
 [submodule "vim/bundle/vim-cljfmt"]
 	path = vim/bundle/vim-cljfmt
-	url = https://github.com/venantius/vim-cljfmt.git
+	url = https://github.com/venantius/vim-cljfmt
 [submodule "vim/bundle/rainbow"]
 	path = vim/bundle/rainbow
 	url = https://github.com/luochen1990/rainbow.git
